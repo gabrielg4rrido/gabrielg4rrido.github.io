@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header id="main" class="menu-box">
+    <header id="main" class="menu-box colored-box">
        <!-- <p class="background-image">
             <img src="./img/main-background-image.jpg" 
             alt=""
@@ -28,25 +28,31 @@
         
     </header>
 
-    <section id="about" class="menu-box colored-box">
+    <section id="about" class="menu-box black-box fade">
         <h2 class="menu-title">Resumo</h3>
+        
+        <div class="about-body">
+            <p>Nome: Gabriel Garrido</p>
+            <p>Idade: 21 anos</p>
+            <p>Endereço: Rio de Janeiro</p>
+            <p>E-mail: gabrielgarridoag@gmail.com</p>
+        </div>
 
-        <p>Nome: Gabriel Garrido</p>
-        <p>Idade: 21 anos</p>
-        <p>Endereço: Rio de Janeiro</p>
-        <p>E-mail: gabrielgarridoag@gmail.com</p>
+        <div class="about-body">
+            <p>Apaixonado e entusiasta por games e computadores desde quando era apenas uma criança, não foi difícil responder a pergunta 
+                "o que irei escolher como carreira profissional?" quando a hora de prestar o vestibular chegou.
+            </p>
 
-        <p>Apaixonado e entusiasta por games e computadores desde quando era apenas uma criança, não foi difícil responder a pergunta 
-            "o que irei escolher como carreira profissional?" quando a hora de prestar o vestibular chegou, certamente seria algo 
-            relacionado a tecnologia!
-        </p>
-        <p>
-            Aprovado no curso de Bacharel em Ciência da Computação nas universidades CEFET/RJ, UERJ e UFRJ,
-            escolhi a federal do Rio de Janeiro para dar início ao sonho de trabalhar com o que eu amo.  
-        </p>
+            <p>Certamente seria algo relacionado a tecnologia!</p>
+
+            <p>
+                Aprovado no curso de Bacharel em Ciência da Computação nas universidades CEFET/RJ, UERJ e UFRJ,
+                escolhi a federal do Rio de Janeiro para dar início ao sonho de trabalhar com o que eu amo.  
+            </p>
+        </div>
     </section>
 
-    <section class="experience menu-box">
+    <section class="experience menu-box colored-box">
         <h2 class="menu-title">Experience</h2>
         <ul class="experience-timeline">
             <li>
@@ -54,8 +60,12 @@
                     <h3>Desenvolvedor</h3>
                 </div>
                 <div class="experience-body">
-                    <span><strong>Laboratório de Ensaios Não Destrutivos, Corrosão e Soldagem (LNDC)) - Outubro 2019/Atual</strong></span>
-                    <p>Desenvolvimento de aplicações de realidade virtual utilizando a linguagem C# e a engine Unity3D.</p>
+                    <span><strong>Laboratório de Ensaios Não Destrutivos, Corrosão e Soldagem (LNDC) - Outubro 2019/Atual</strong></span>
+                    <p>
+                        Desenvolvimento de aplicações para automatização de processos utilizando a linguagem Python 3,
+                        participando de todo o projeto de criação desde o código em si até o desenvolvimento de interfaces gráficas
+                        utilizando bibliotecas científicas como Numpy, SciPy, Matplotlib e Pandas e bibliotecas gráficas como PyQt5.
+                    </p>
                 </div>
             </li>
             <li>
@@ -64,16 +74,15 @@
                 </div>
                 <div class="experience-body">
                     <span><strong>Laboratório de Realidade Virtual da COPPE/UFRJ (Lab3D) - Outubro 2018/Julho 2019</strong></span>
-                    <p>Desenvolvimento de aplicações para automatização de processos utilizando a linguagem Python 3,
-                        participando de todo o projeto de criação desde o código em si até o desenvolvimento de interfaces gráficas
-                        utilizando bibliotecas científicas como Numpy, SciPy, Matplotlib e Pandas e bibliotecas gráficas como PyQt5.
+                    <p>
+                        Desenvolvimento de aplicações de realidade virtual utilizando a linguagem C# e a engine Unity3D.
                     </p>
                 </div>
             </li>
         </ul>
     </section>
 
-    <section class="education menu-box colored-box">
+    <section class="education menu-box black-box fade">
         <h2 class="menu-title">Education</h2>
         <ul class="education-timeline">
             <li>
@@ -97,7 +106,7 @@
         </ul>
     </section>
 
-    <footer>
+    <footer class="black-box">
         © 2020 Gabriel Garrido.  All rights reserved.
     </footer>
 </body>

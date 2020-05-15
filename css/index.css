@@ -1,24 +1,25 @@
 body {
-    font-family: sans-serif;
-    background-color: #fff;
+    font-family: monospace;
+    font-size: 20px;
 }
 
-#main {
-    background-color: #fff;
-}
-
-#about {
-    background-color: indigo;
+#about p {
+    padding-left: 5px;
 }
 
 #nome-principal, #descricao-principal {
     text-align: center;
 }
 
+.media {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+}
+
 .media-icon {
     width: 40px;
     height: 40px;
-    display: inline;
 }
 
 
@@ -34,19 +35,29 @@ body {
     padding: 10px 10px;
 }
 
-.colored-box {
+.black-box {
     color: #fff;
+    background-color: #000000
+
+}
+.colored-box {
+    color: #000000;
+    background-color: #CCFF00;
 }
 
-.media {
-    text-align: center;
-    display: inline;
-    list-style-type: none;
+.fade {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    }
+ 
+.fade:hover {
+       opacity: 0.9;
 }
 
 footer {
-    background-color: #fff;
     font-size: 20px;
     text-align: center;
-    margin: 20px 0;
+    padding: 20px 0;
 }
