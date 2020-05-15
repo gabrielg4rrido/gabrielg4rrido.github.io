@@ -1,17 +1,52 @@
 body {
     font-family: sans-serif;
-    background-color: dimgray;
+    background-color: #fff;
+}
+
+#main {
+    background-color: #fff;
+}
+
+#about {
+    background-color: indigo;
 }
 
 #nome-principal, #descricao-principal {
     text-align: center;
 }
 
-.menu-redes {
-    text-align: center;
+.media-icon {
+    width: 40px;
+    height: 40px;
     display: inline;
 }
 
-.menu-resumo {
+
+.education {
+    background-color: indigo;
+}
+
+.menu-title {
     text-align: center;
+}
+
+.menu-box {
+    padding: 10px 10px;
+}
+
+.colored-box {
+    color: #fff;
+}
+
+.media {
+    text-align: center;
+    display: inline;
+    list-style-type: none;
+}
+
+footer {
+    background-color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
 }
