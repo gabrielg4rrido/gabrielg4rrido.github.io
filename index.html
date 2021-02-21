@@ -6,108 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Shippori+Mincho&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon.png">    
     <title>Gabriel Garrido - CV</title>
 </head>
 
 <body>
-    <header id="main" class="menu-box colored-box">
-       <!-- <p class="background-image">
-            <img src="./img/main-background-image.jpg" 
-            alt=""
-            width="1600"
-            height="500">
-        </p>-->
-        
-        <h1 id="nome-principal" class="menu-title">Gabriel Garrido</h1>
-        <h3 id="descricao-principal">Software Developer / Software Analyst</h3>
-        <ul class="media">
-            <li><a href="https://www.linkedin.com/in/g4brielgarrido/" target="_blank"><img src="img/linkedin-icon.png" class="media-icon"></a></li>
-            <li><a href="https://github.com/gabrielg4rrido?tab=repositories" target="_blank"><img src="img/github-icon.png" class="media-icon"></a></li>
-            <li><a href="mailto:gabrielgarridoag@gmail.com" target="_blank"><img src="img/email-icon.png" class="media-icon"></a></li>
-        </ul>
-        
-    </header>
+    <div class="top-container">
+        <div class="menu">
+            
+            <h1>Gabriel Garrido</h1>
+            <h2>Software Developer / Software Analyst</h2>
+    
+            <a href="https://www.linkedin.com/in/g4brielgarrido/" target="_blank"><img class="linkedin-icon" src="img/linkedin-icon.png"></a>
+            <a href="https://github.com/gabrielg4rrido?tab=repositories" target="_blank"><img class="github-icon" src="img/github-icon.png"></a>
+            <a href="mailto:gabrielgarridoag@gmail.com" target="_blank"><img class="mailto-icon" src="img/email-icon.png"></a>    
+        </div>    
+    </div>
 
-    <section id="about" class="menu-box black-box fade">
-        <h2 class="menu-title">Resumo</h3>
-        
-        <div class="about-body">
-            <p>Nome: Gabriel Garrido</p>
-            <p>Idade: 21 anos</p>
-            <p>Endereço: Rio de Janeiro</p>
-            <p>E-mail: gabrielgarridoag@gmail.com</p>
+    <div class="middle-container">
+        <div class="profile">
+            <div class="introduction">
+                <img src="img/profile-char.png" class="profile-img" alt="Profile image.">
+                <h2>Olá!</h2>
+                <p>Sou um desenvolvedor full-stack.</p>
+                <p>Universitário, apaixonado por esportes e tecnologia.</p>
+            </div>
+            <div class="no-float">
+                <p>
+                    Apaixonado e entusiasta por games e computadores desde quando era apenas uma criança, não foi difícil responder a pergunta 
+                    "o que irei escolher como carreira profissional?" quando a hora de prestar o vestibular chegou.
+                </p>
+                <p>
+                    Certamente seria algo relacionado a tecnologia!
+                </p>
+                <p>
+                    Aprovado no curso de Bacharel em Ciência da Computação nas universidades CEFET/RJ, UERJ e UFRJ,
+                    escolhi a federal do Rio de Janeiro para dar início ao sonho de trabalhar com o que eu amo.  
+                </p>
+            </div>
         </div>
+    </div>
 
-        <div class="about-body">
-            <p>Apaixonado e entusiasta por games e computadores desde quando era apenas uma criança, não foi difícil responder a pergunta 
-                "o que irei escolher como carreira profissional?" quando a hora de prestar o vestibular chegou.
-            </p>
+    <div class="skills">
+        <h2>Skills</h2>
+        
+        <div class="skill-row">
+                <img class="skills-icon-java" src="img/java.png" alt="">
 
-            <p>Certamente seria algo relacionado a tecnologia!</p>
-
-            <p>
-                Aprovado no curso de Bacharel em Ciência da Computação nas universidades CEFET/RJ, UERJ e UFRJ,
-                escolhi a federal do Rio de Janeiro para dar início ao sonho de trabalhar com o que eu amo.  
-            </p>
+                <h3>Java</h3>
+                <p>Desenvolvimento de aplicações back-end utilizando Maven, JPA/Hibernate, Spring Boot e MongoDB.</p>
         </div>
-    </section>
+                
+        <div class="skill-row">
+                <img class="skills-icon-python" src="img/python.png" alt="">
 
-    <section class="experience menu-box colored-box">
-        <h2 class="menu-title">Experience</h2>
-        <ul class="experience-timeline">
-            <li>
-                <div class="experience-title">
-                    <h3>Desenvolvedor</h3>
-                </div>
-                <div class="experience-body">
-                    <span><strong>Laboratório de Ensaios Não Destrutivos, Corrosão e Soldagem (LNDC) - Outubro 2019/Atual</strong></span>
-                    <p>
-                        Desenvolvimento de aplicações para automatização de processos utilizando a linguagem Python 3,
-                        participando de todo o projeto de criação desde o código em si até o desenvolvimento de interfaces gráficas
-                        utilizando bibliotecas científicas como Numpy, SciPy, Matplotlib e Pandas e bibliotecas gráficas como PyQt5.
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="experience-title">
-                    <h3>Pesquisador e Desenvolvedor</h3>
-                </div>
-                <div class="experience-body">
-                    <span><strong>Laboratório de Realidade Virtual da COPPE/UFRJ (Lab3D) - Outubro 2018/Julho 2019</strong></span>
-                    <p>
-                        Desenvolvimento de aplicações de realidade virtual utilizando a linguagem C# e a engine Unity3D.
-                    </p>
-                </div>
-            </li>
-        </ul>
-    </section>
+                <h3>Python</h3>
+                <p>
+                    Desenvolvimento de aplicações para automatização de processos e criação de interfaces gráficas. 
+                    Conhecimento do pacote científico (Matplotlib, SciPy, NumPy, Pandas).
+                </p>
 
-    <section class="education menu-box black-box fade">
-        <h2 class="menu-title">Education</h2>
-        <ul class="education-timeline">
-            <li>
-                <div class="education-title">
-                    <h3>Graduação</h3>
-                </div>
-                <div class="education-body">
-                    <span>Universidade Federal do Rio de Janeiro - Julho 2017/Atual</span>
-                    <p>Bacharel em Ciência da Computação</p>
-                </div>
-            </li>
-            <li>
-                <div class="education-title">
-                    <h3>Ensino Médio</h3>
-                </div>
-                <div class="education-body">
-                    <span>Colégio Lemos de Castro - 2013/2015</span>
-                    <p>Técnico em Eletrônica</p>
-                </div>
-            </li>
-        </ul>
-    </section>
+        </div>
+    </div>
 
-    <footer class="black-box">
-        © 2020 Gabriel Garrido.  All rights reserved.
-    </footer>
+    <div class="contact-me">
+        <h2>Contato</h2>
+        <h3>Quer me contratar?</h3>
+        <p>Entre em contato! Me mande um e-mail, vamos ter uma conversa sobre o quão incrível será o nosso trabalho juntos! </p>
+        <a href="mailto:gabrielgarridoag@gmail.com" class="contact-button">ENTRE EM CONTATO</a>
+    </div>
+          
+    <div class="bottom-container">
+        <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <p>© 2021 Gabriel Garrido.</p>
+    </div>
 </body>
 </html>
